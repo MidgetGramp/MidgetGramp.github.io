@@ -3,15 +3,30 @@ a {
 }
 
 p {
-  color: white;
+  color: black;
   font-size: 16px;
 }
+
+p.text1	{
+	color: black;
+	font-size: 20px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+}
+
+ul.STEM	{
+	list-style-type: none;
+    margin: 25px;
+    padding: 25px;
+    overflow: hidden;
+    background-color: #918EA5;
 }
 
 li {
